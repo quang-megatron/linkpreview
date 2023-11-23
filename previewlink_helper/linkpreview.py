@@ -1,14 +1,8 @@
 from os.path import dirname
 
-from linkpreview.link import Link
-from linkpreview.preview import (
-    Generic,
-    OpenGraph,
-    TwitterCard,
-    Microdata,
-    JsonLd,
-)
-from linkpreview.helpers import LazyAttribute, titleize
+from previewlink_helper.helpers import LazyAttribute, titleize
+from previewlink_helper.link import Link
+from previewlink_helper.preview import Generic, OpenGraph
 
 
 class LinkPreview:
@@ -16,14 +10,8 @@ class LinkPreview:
         self.link = link
         self.generic = Generic(link, parser)
         self.opengraph = OpenGraph(link, parser)
-        self.twitter = TwitterCard(link, parser)
-        self.microdata = Microdata(link, parser)
-        self.jsonld = JsonLd(link, parser)
         self.sources = (
             self.opengraph,
-            self.twitter,
-            self.microdata,
-            self.jsonld,
             self.generic,
         )
 

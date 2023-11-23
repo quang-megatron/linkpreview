@@ -1,0 +1,25 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "previewlink_helper"
+version = "0.0.3"
+authors = []
+description = "Get link preview"
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies=[
+  "beanie>=1.21.0",
+  "pymongo>=4.5.0",
+  "fastapi-exception>=1.2.5"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/quang-megatron/linkpreview"
+"Bug Tracker" = "https://github.com/quang-megatron/linkpreview/issues"

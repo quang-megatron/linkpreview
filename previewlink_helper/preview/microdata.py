@@ -1,6 +1,6 @@
 from urllib.parse import urlparse
 
-from linkpreview.preview.schemabase import SchemaPreviewBase
+from previewlink_helper.preview.schemabase import SchemaPreviewBase
 
 
 class Microdata(SchemaPreviewBase):

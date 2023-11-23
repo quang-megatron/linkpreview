@@ -1,4 +1,4 @@
-from linkpreview.preview.base import PreviewBase
+from previewlink_helper.preview.base import PreviewBase
 
 
 class MetaPreviewBase(PreviewBase):

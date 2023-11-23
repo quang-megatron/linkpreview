@@ -1,8 +1,8 @@
 import pytest
 
 
-from linkpreview import Link
-from linkpreview.preview import JsonLd
+from previewlink_helper import Link
+from previewlink_helper.preview import JsonLd
 
 from tests.helpers import get_sample
 

@@ -1,5 +1,5 @@
-from linkpreview.preview.base import PreviewBase
-from linkpreview.helpers import LazyAttribute
+from previewlink_helper.preview.base import PreviewBase
+from previewlink_helper.helpers import LazyAttribute
 
 WEBSITE = "website"
 ORGANIZATION = "organization"

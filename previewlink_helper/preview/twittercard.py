@@ -1,4 +1,4 @@
-from linkpreview.preview.metabase import MetaPreviewBase
+from previewlink_helper.preview.metabase import MetaPreviewBase
 
 
 class TwitterCard(MetaPreviewBase):

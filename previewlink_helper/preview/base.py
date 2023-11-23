@@ -1,5 +1,5 @@
 from bs4 import BeautifulSoup
-from linkpreview.link import Link
+from previewlink_helper.link import Link
 
 
 class PreviewBase(object):  # pragma: nocover

@@ -6,7 +6,7 @@ except ModuleNotFoundError:  # pragma: nocover
     except ModuleNotFoundError:  # pragma: nocover
         import json
 
-from linkpreview.preview.schemabase import SchemaPreviewBase
+from previewlink_helper.preview.schemabase import SchemaPreviewBase
 
 
 class JsonLd(SchemaPreviewBase):

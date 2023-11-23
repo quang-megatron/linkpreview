@@ -8,8 +8,8 @@ from werkzeug.wrappers.response import Response
 
 from requests.exceptions import ReadTimeout
 
-from linkpreview import LinkGrabber
-from linkpreview import exceptions
+from previewlink_helper import LinkGrabber
+from previewlink_helper import exceptions
 
 from tests.helpers import get_sample
 

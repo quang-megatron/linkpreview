@@ -4,7 +4,7 @@ from pytest_httpserver import HTTPServer
 
 from werkzeug.wrappers.response import Response
 
-from linkpreview import link_preview
+from previewlink_helper import link_preview
 
 from tests.helpers import get_sample
 

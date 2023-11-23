@@ -26,7 +26,7 @@ pip install linkpreview
 ### Basic
 
 ```python
-from linkpreview import link_preview
+from previewlink_helper import link_preview
 
 url = "http://localhost"
 content = """
@@ -57,7 +57,7 @@ print("absolute_favicon:", preview.absolute_favicon)
 ### Automatic fetch link content
 
 ```python
-from linkpreview import link_preview
+from previewlink_helper import link_preview
 
 preview = link_preview("http://github.com/")
 print("title:", preview.title)
@@ -77,7 +77,7 @@ Very recommended for better performance.
 [Install](https://lxml.de/installation.html) the `lxml` and use it like this:
 
 ```python
-from linkpreview import link_preview
+from previewlink_helper import link_preview
 
 preview = link_preview("http://github.com/", parser="lxml")
 print("title:", preview.title)
@@ -93,7 +93,7 @@ print("absolute_favicon:", preview.absolute_favicon)
 ### Advanced
 
 ```python
-from linkpreview import Link, LinkPreview, LinkGrabber
+from previewlink_helper import Link, LinkPreview, LinkGrabber
 
 url = "http://github.com"
 grabber = LinkGrabber(

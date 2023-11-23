@@ -1,5 +1,5 @@
-from linkpreview import Link, LinkGrabber, LinkPreview
-from linkpreview.exceptions import InvalidMimeTypeError
+from previewlink_helper import Link, LinkGrabber, LinkPreview
+from previewlink_helper.exceptions import InvalidMimeTypeError
 
 
 def link_preview(

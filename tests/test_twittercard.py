@@ -1,7 +1,7 @@
 import pytest
 
-from linkpreview import Link
-from linkpreview.preview import TwitterCard
+from previewlink_helper import Link
+from previewlink_helper.preview import TwitterCard
 
 from tests.helpers import get_sample
 
